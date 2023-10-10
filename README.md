@@ -1,6 +1,6 @@
 # Dad Joke API Console Application
 
-This C# Console app interacts with the Dad Joke API, which allows uers to retrieve random jokes by specific IDs.
+This C# Console app interacts with the Dad Joke API, which allows uers to display random jokes and search by jokes by keywords.
 
 ## Issues Encountered and how they were Resolved
 
