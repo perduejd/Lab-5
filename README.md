@@ -11,12 +11,12 @@ This C# Console app interacts with the Dad Joke API, which allows uers to retrie
 - **Resolution:** Checked the API endpoint URL and verified it. Also, verified the API documentation to ensure correct usage of endpoints. 
                   Found out that the issue was due to incorrect headers; added "User-Agent" header to the HTTP requests, and the issue was resolved.
 
-### Issue 2: Invalid Joke ID Handling
+### Issue 2: Invalid Joke Keyword Handling
 
 #### Steps Taken:
-- **Issue Description:** The application was crashing when an invalid joke ID was entered.
-- **Resolution:** Implemented try-catch blocks in the `GetJokeByIdAsync` method to handle `HttpRequestException` and `JsonException` appropriately.
-                  Displayed a user-friendly error message to the user when an invalid joke ID was entered, preventing application crashes.
+- **Issue Description:** The application was crashing when an invalid joke keyword was entered.
+- **Resolution:** Implemented try-catch blocks in the `SearchJokesAsync` method to handle `HttpRequestException` and `JsonException` appropriately.
+                  Displayed a user-friendly error message to the user when an invalid joke keyword was entered, preventing application crashes.
 
 ### Issue 3: API Rate Limiting
 
